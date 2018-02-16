@@ -1,9 +1,9 @@
 function add(a, b) {
-  return parseFloat(a) + parseFloat(b)
+  return a + b
 }
 
 function subtract(a, b) {
-  return parseFloat(a) - parseFloat(b)
+  return a - b
 }
 
 function multiply(a, b) {
@@ -15,5 +15,5 @@ function divide(a, b) {
 }
 
 function inc(n) {
-  return parseFloat(n) += 1;
+  return parseFloat(n) += 1
 }
