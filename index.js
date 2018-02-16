@@ -7,13 +7,13 @@ function subtract(a, b) {
 }
 
 function multiply(a, b) {
-  return parseFloat(a) * parseFloat(b)
+  return a * b
 }
 
 function divide(a, b) {
-  return parseFloat(a) / parseFloat(b)
+  return a / b
 }
 
 function inc(n) {
-  return parseFloat(n) += 1
+  return n += 1
 }
